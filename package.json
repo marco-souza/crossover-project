@@ -1,0 +1,12 @@
+{
+  "name": "crossover-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marco-souza/crossover-project.git",
+  "scripts": {
+    "docker-build": "docker build -t crossover-project . ",
+    "docker": "docker -p 4000:80 crossover-project "
+  },
+  "author": "Marco Antonio <ma.souza.junior@gmail.com>",
+  "license": "MIT"
+}
