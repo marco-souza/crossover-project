@@ -4,10 +4,11 @@ FROM mhart/alpine-node
 WORKDIR /src
 
 # Copy src folter to /src
-ADD ./src /src
+ADD . /src
 
 # Install dependencies
-RUN apk add npm
+# RUN apk update
+# RUN apk add npm
 RUN npm install
 
 # Port avaliable to the world outside the container
