@@ -2,8 +2,6 @@
 
 ## TODO
 
-- Create web server and web app npm repo [1]
-
 - Estudar Arcgis JavaScript API [3]
 
 - Install packages and setup packages [27]
@@ -29,5 +27,7 @@
 ## DONE
 
 - Define folder structure [1]
+
+- Create web server and web app npm repo [1]
 
 - Basic env on Dockerfile
